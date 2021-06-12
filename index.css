@@ -12,7 +12,7 @@
 html {
   scroll-behavior: smooth;
 }
-/* custom scroll bar */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -31,7 +31,7 @@ html {
   padding: 0 30px;
 }
 .navbar{
-  /* background-color:#fff; */
+ 
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -94,18 +94,13 @@ html {
 }
 
 .icon{
-  /* background: url("logo.png") no-repeat; */
+
   color: #fff;
   font-size: 20px;
   cursor: pointer;
   display: none;
 }
-/* 
-.icon img{
-  width:70px;
-  height:70px;
-  
-} */
+
 .menu-list .cancel-btn{
   position: absolute;
   right: 30px;
@@ -167,7 +162,7 @@ html {
 }
 
 section{
-  background: url("/images/background.jpeg");
+  background: url("images/background.jpeg");
   background-repeat: no-repeat; 
   background-size: cover;
   padding: 100px;
@@ -176,8 +171,7 @@ section{
 .banner{
     position: relative;
     height: 100vh;
-    /* background: url("/images/covid.jpg"); */
-    background: url('https://cdn.discordapp.com/attachments/849303338435739659/853218137867419658/20210612_155449_0000.png');
+    background: url('images/covid.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -268,7 +262,7 @@ section{
 
 
 .section2 {
-  background: url("/images/background.jpeg");
+  background: url("images/background.jpeg");
   background-repeat: no-repeat; 
   background-size: cover;
   min-height: 50vh;
@@ -350,7 +344,7 @@ section{
 
 .about h1 {
     text-align: center;
-    /* float:left; */
+  
 }
 
 .about a {
@@ -550,7 +544,7 @@ body {
 }
 
 .bottom-container {
-  background: url("/images/background.jpeg");
+  background: url("images/background.jpeg");
   background-repeat: no-repeat; 
   background-size: cover;
     padding: 5px 0px;
