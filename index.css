@@ -459,6 +459,19 @@ section {
 
 }
 
+@media only screen 
+and (min-device-width: 340px)
+and (max-device-width : 600px) {
+   .banner{
+      background-image: url(images/covid-phn.png) !important;
+      background-size: cover;
+  }
+
+  .banner .logo img{
+    width: 100px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .text-content {
     padding-bottom: 0px !important;
