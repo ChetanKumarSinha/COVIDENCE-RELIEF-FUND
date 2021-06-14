@@ -10,9 +10,23 @@ body{
     align-items: center;
 }
 
+
 .razorpay-embed-btn{
     position: relative;
     margin-top: 300px;
+    
+}
+
+@media only screen and (min-device-width: 340px) and (max-device-width: 600px){
+
+body {
+    background-image: url(images/covid1-phn.png) !important;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 }
 
 @media(max-width: 700px)
@@ -24,3 +38,4 @@ body{
     background-position: left;
   }
 }
+
